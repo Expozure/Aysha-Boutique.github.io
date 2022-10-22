@@ -37,7 +37,7 @@ https://www.husnacollection.com/
 	- Sub footer: Terms conditions etc…
 
 
-# Pages & subpages: (Purpose of each page and subpage? Only information? What type of information? Will there be images? Where? Buttons? Any infographics? List or grid layout? Carousel banners? Carousel images? backlinks? Any CTA?  Any floating forms? Any USPs? Vertical view? H)
+# Pages & subpages:
 
 # Footer Quick links:
 
