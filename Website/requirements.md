@@ -25,9 +25,9 @@ Favoured website examples
 # Design requirements: 
 Simple designs preferred see Examplez:
 
-https://arabesque-elegance.co.uk/collections/abayas
-https://abayasboutique.com/closed-abayas/1900-noir-chiffon-abaya.html
-https://www.husnacollection.com/
+- https://arabesque-elegance.co.uk/collections/abayas
+- https://abayasboutique.com/closed-abayas/1900-noir-chiffon-abaya.html
+- https://www.husnacollection.com/
 
 # Planned Sitemap:
 
