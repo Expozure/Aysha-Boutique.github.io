@@ -32,7 +32,7 @@
 
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper">
+    <div class="offcanvas-menu-wrapper" style="z-index: 20000;">
       <div class="offcanvas__option">
         <div class="offcanvas__links">
           <a href="#">Sign in</a>
@@ -63,7 +63,7 @@
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header">
+    <header class="header" style="position:fixed;z-index: 10000;width: 100%;">
       <div class="header__top">
         <div class="container">
           <div class="row">
@@ -92,14 +92,14 @@
         </div>
       </div>
       <div class="container">
-        <div class="row" style="align-items: center">
+        <div class="row" style="align-items: center;">
           <div class="col-lg-3 col-md-3">
-            <div class="header__logo">
-              <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+            <div class="header__logo" style="padding:20px 0 ;">
+              <a href="./index.html"><img src="img/logo.png" style="width: 50%;" /></a>
             </div>
           </div>
           <div class="col-lg-6 col-md-6">
-            <nav class="header__menu mobile-menu">
+            <nav class="header__menu mobile-menu" >
               <ul>
                 <li class="active"><a href="./index.html">Home</a></li>
                 <li><a href="./shop.html">Shop</a></li>
@@ -131,13 +131,16 @@
             </div>
           </div>
         </div>
-        <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        <div class="canvas__open">
+          
+          <i class="fa fa-bars"></i>
+        </div>
       </div>
     </header>
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero">
+    <section class="hero" style="padding-top: 10%;">
       <div class="hero__slider owl-carousel">
         <div class="hero__items set-bg" data-setbg="img/hero/hero-1.jpg">
           <div class="container">
@@ -240,7 +243,7 @@
     <section class="product spad">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12"> 
             <ul class="filter__controls">
               <li class="active" data-filter="*">Best Sellers</li>
               <li data-filter=".new-arrivals">New Arrivals</li>
@@ -250,7 +253,7 @@
         </div>
         <div class="row product__filter">
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix new-arrivals"
           >
             <div class="product__item">
               <div
@@ -299,7 +302,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix hot-sales"
           >
             <div class="product__item">
               <div
@@ -347,7 +350,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix new-arrivals"
           >
             <div class="product__item sale">
               <div
@@ -396,7 +399,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix hot-sales"
           >
             <div class="product__item">
               <div
@@ -444,7 +447,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix new-arrivals"
           >
             <div class="product__item">
               <div
@@ -492,7 +495,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix hot-sales"
           >
             <div class="product__item sale">
               <div
@@ -541,7 +544,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix new-arrivals"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix new-arrivals"
           >
             <div class="product__item">
               <div
@@ -589,7 +592,7 @@
             </div>
           </div>
           <div
-            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 mix hot-sales"
+            class="col-lg-3 col-md-6 col-sm-6 col-md-6 col-sm-6 col-6 mix hot-sales"
           >
             <div class="product__item">
               <div
