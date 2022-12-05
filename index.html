@@ -32,7 +32,7 @@
 
     <!-- Offcanvas Menu Begin -->
     <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu-wrapper" style="z-index: 20000;">
+    <div class="offcanvas-menu-wrapper" style="z-index: 20000;background-color:#000">
       <div class="offcanvas__option">
         <div class="offcanvas__links">
           <a href="#">Sign in</a>
@@ -49,21 +49,31 @@
       </div>
       <div class="offcanvas__nav__option">
         <a href="#" class="search-switch"
-          ><img src="img/icon/search.png" alt=""
-        /></a>
-        <a href="#"><img src="img/icon/heart.png" alt="" /></a>
-        <a href="#"><img src="img/icon/cart.png" alt="" /> <span>0</span></a>
-        <div class="price">$0.00</div>
+          >
+          <!-- <img src="img/icon/search.png" alt="" -->
+          <i class="fa fa-search" style="color: #fff;"></i>
+
+        </a>
+        <a href="#">
+          <!-- <img src="img/icon/heart.png" alt="" /> -->
+          <i class="fa fa-heart" aria-hidden="true" style="color: #fff;"></i>
+        </a>
+        <a href="#">
+          <!-- <img src="img/icon/cart.png" alt="" />  -->
+            <i class="fa fa-shopping-basket" style="color: #fff;"></i>
+          <span style="color: #fff;">0</span>
+        </a>
+        <div class="price" style="color: #fff;">$0.00</div>
       </div>
       <div id="mobile-menu-wrap"></div>
       <div class="offcanvas__text">
-        <p>Free shipping, 30-day return or refund guarantee.</p>
+        <p style="color: #fff;">Free shipping, 30-day return or refund guarantee.</p>
       </div>
     </div>
     <!-- Offcanvas Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header" style="position:fixed;z-index: 10000;width: 100%;">
+    <header class="header" style="position:fixed;z-index: 10000;width: 100%;background-color: black;color: #fff;">
       <div class="header__top">
         <div class="container">
           <div class="row">
@@ -101,10 +111,10 @@
           <div class="col-lg-6 col-md-6">
             <nav class="header__menu mobile-menu" >
               <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./shop.html">Shop</a></li>
+                <li class="active" "><a href="./index.html" style="color: #fff;">Home</a></li>
+                <li><a href="./shop.html" style="color: #fff;">Shop</a></li>
                 <li>
-                  <a href="./about.html">About Us</a>
+                  <a href="./about.html" style="color: #fff;">About Us</a>
                   <!-- <ul class="dropdown">
                     <li><a href="./about.html">About Us</a></li>
                     <li><a href="./shop-details.html">Shop Details</a></li>
@@ -114,7 +124,7 @@
                   </ul> -->
                 </li>
                 <!-- <li><a href="./blog.html">Blog</a></li> -->
-                <li><a href="./contact.html">Contacts</a></li>
+                <li><a href="./contact.html" style="color: #fff;">Contacts</a></li>
               </ul>
             </nav>
           </div>
@@ -123,9 +133,16 @@
               <a href="#" class="search-switch"
                 ><img src="img/icon/search.png" alt=""
               /></a>
-              <a href="#"><img src="img/icon/heart.png" alt="" /></a>
+              <a href="#">
+                <!-- <img src="img/icon/heart.png" alt="" /> -->
+                <i class="fa fa-heart" style="color: #fff;"></i>
+              </a>
               <a href="./shopping-cart.html"
-                ><img src="img/icon/cart.png" alt="" /> <span>0</span></a
+                >
+                <!-- <img src="img/icon/cart.png" alt="" /> -->
+                <!-- <i class="fa fa-cart " style="color: #fff;"></i> -->
+                <i class="fa fa-shopping-basket" style="color: #fff;"></i>
+                 <span style="color: #fff;">0</span></a
               >
               <div class="price">$0.00</div>
             </div>
@@ -133,7 +150,7 @@
         </div>
         <div class="canvas__open">
           
-          <i class="fa fa-bars"></i>
+          <i class="fa fa-bars" style="color: #fff;"></i>
         </div>
       </div>
     </header>

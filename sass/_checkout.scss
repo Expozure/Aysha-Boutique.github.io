@@ -35,7 +35,7 @@
     margin-bottom: 12px;
 
     span {
-      color: #e53637;
+      color: #DAA520		;
     }
   }
 
@@ -70,7 +70,7 @@
       visibility: hidden;
 
       &:checked ~ .checkmark {
-        border-color: #e53637;
+        border-color: #DAA520		;
       }
 
       &:checked ~ .checkmark:after {
@@ -94,7 +94,7 @@
         top: -3px;
         width: 14px;
         height: 7px;
-        border: solid #e53637;
+        border: solid #DAA520		;
         border-width: 1.5px 1.5px 0px 0px;
         -webkit-transform: rotate(127deg);
         -ms-transform: rotate(127deg);
@@ -185,7 +185,7 @@
     overflow: hidden;
 
     span {
-      color: #e53637;
+      color: #DAA520		;
       font-weight: 700;
       float: right;
     }
