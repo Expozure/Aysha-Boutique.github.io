@@ -25,6 +25,181 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
   </head>
 
+
+
+
+
+
+
+  <!-- footer style -->
+
+<style>
+  .site-footer
+{
+  background-color:#000;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#fff;
+}
+.site-footer hr
+{
+  border-top-color:#fff;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:goldenrod;
+}
+.site-footer a:hover
+{
+  color:#fff;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:gray
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:goldenrod;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#fff
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#000;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+</style>
+
+  <!-- footer style end -->
   <body>
     <div id="preloder">
       <div class="loader"></div>
@@ -777,27 +952,58 @@
     </section> -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer">
+      <!-- Site footer -->
+    <footer class="site-footer">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="footer__copyright__text">
-              <p>
-                Copyright ©
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                2020 All rights reserved | This website is made by
-                <a href="https://www.expozureltd.com/" target="_blank"
-                  >Expozure</a
-                >
-              </p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </div>
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify" style="color: gray;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, excepturi dolorum? Sunt voluptas excepturi aliquid corrupti dolor voluptatum neque minus error dignissimos atque ipsum perferendis, omnis magnam deserunt incidunt explicabo?
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="#">C 1</a></li>
+              <li><a href="#">Product C2</a></li>
+              <li><a href="#">Product C 3</a></li>
+             
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Cotact US</a></li>
+            
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+         <a href="#">Ayesha Boutique</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
           </div>
         </div>
       </div>
-    </footer>
+</footer>
     <!-- Footer Section End -->
 
     <!-- Search Begin -->
